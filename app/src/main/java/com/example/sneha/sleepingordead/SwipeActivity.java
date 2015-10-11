@@ -27,6 +27,30 @@ public class SwipeActivity extends AppCompatActivity {
 
         SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this);
         adapter.add(new CardModel("Cat", "Description goes here", getResources().getDrawable(R.drawable.cat)));
+        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.h1)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.h2)));
+//        adapter.add(new CardModel("Heh", "Description goes here", getResources().getDrawable(R.drawable.h3)));
+//        adapter.add(new CardModel("Hm", "Description goes here", getResources().getDrawable(R.drawable.h4)));
+        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p1)));
+        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.potato)));
+        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.friendlyu)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p2)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p3)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p4)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p5)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p6)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p7)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p8)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p9)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p10)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p11)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p12)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p13)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p14)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p15)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p16)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p17)));
+//        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p18)));
         mCardContainer.setAdapter(adapter);
     }
 
