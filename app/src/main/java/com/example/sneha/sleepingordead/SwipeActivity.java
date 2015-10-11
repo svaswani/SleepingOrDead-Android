@@ -32,7 +32,7 @@ public class SwipeActivity extends AppCompatActivity {
 //        adapter.add(new CardModel("Heh", "Description goes here", getResources().getDrawable(R.drawable.h3)));
 //        adapter.add(new CardModel("Hm", "Description goes here", getResources().getDrawable(R.drawable.h4)));
         adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p1)));
-        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.potato)));
+        adapter.add(new CardModel("Hmmm", "Potatos gon' potate", getResources().getDrawable(R.drawable.potato)));
         adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.friendlyu)));
 //        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p2)));
 //        adapter.add(new CardModel("Hmmm", "Description goes here", getResources().getDrawable(R.drawable.p3)));
