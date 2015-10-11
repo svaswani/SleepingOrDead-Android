@@ -9,6 +9,9 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_swipe" tools:context=".SwipeActivity">
 
-    <TextView android:text="Hello World!" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <com.andtinder.view.CardContainer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </RelativeLayout>

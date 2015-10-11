@@ -9,6 +9,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.andtinder.model.CardModel;
+import com.andtinder.view.CardContainer;
+import com.andtinder.view.SimpleCardStackAdapter;
+
 public class SwipeActivity extends AppCompatActivity {
 
     @Override
@@ -18,6 +22,12 @@ public class SwipeActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        CardContainer mCardContainer = (CardContainer) findViewById(R.id.layoutview);
+        CardModel card = new CardModel("Title1", "Description goes here", getResources().getDrawable(R.drawable.cat));
+
+        SimpleCardStackAdapter adapter = new SimpleCardStackAdapter(this);
+        adapter.add(new CardModel("Cat", "Description goes here", getResources().getDrawable(R.drawable.cat)));
+        mCardContainer.setAdapter(adapter);
     }
 
     @Override
